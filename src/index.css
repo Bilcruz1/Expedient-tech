@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-container {
+	position: relative;
+	width: 100%;
+	margin-bottom: 50px; /* Add some space to prevent overlap */
+}
+
+.swiper-pagination {
+	position: relative; /* Changed from absolute */
+	margin-top: 60px; /* Move the pagination down */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper-pagination-bullet {
+	background-color: #8bc34a;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #6a9113;
+}
+
+.text-gradient {
+	background: linear-gradient(90deg, #6a9113, #141517);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
