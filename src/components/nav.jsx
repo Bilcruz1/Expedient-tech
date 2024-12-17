@@ -100,7 +100,7 @@ export default function Nav() {
 	return (
 		<>
 			{isOpen && <Hamburger setIsOpen={setIsOpen} />}
-			<div className="fixed z-50 top-0 bg-[#ffffff]  font-roboto lg:w-[calc(100%-32px)] w-[calc(100%-16px)] lg:ml-[16px] ml-[8px] lg:mt-0 mt-[8px]  lg:px-[156px] px-[16px] lg:py-[24px] py-[16px] rounded-md  shadow-xl">
+			<div className="fixed z-50 top-0 bg-[#ffffff]  font-roboto lg:w-[calc(100%-32px)] w-[calc(100%-16px)] lg:ml-[16px] ml-[8px] lg:mt-[16px] mt-[8px]  lg:px-[156px] px-[16px] lg:py-[24px] py-[16px] rounded-md  shadow-xl">
 				<div className="flex justify-between">
 					<div>
 						<a href="#">

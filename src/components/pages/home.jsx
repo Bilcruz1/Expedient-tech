@@ -13,7 +13,7 @@ const Home = () => {
 			<div className="font-roboto">
 				<HeroSection />
 				<About />
-				<Services />
+				{/* <Services /> */}
 				<CoreServices />
 				<WhyUs />
 				{/* <Latest /> */}

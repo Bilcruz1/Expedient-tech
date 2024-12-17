@@ -49,7 +49,7 @@ export default function About() {
 					<p className="text-gradient  text-[32px] leading-[58px] font-extrabold text-center">
 						Expedient Techs LTD
 					</p>
-					<p className="text-[20px]  pt-[12px] leading-[30px] text-[#1D1B20] text-center lg:px-[100px]">
+					<p className="text-[20px]  pt-[12px] leading-[30px] text-[#1D1B20] text-center lg:px-[0px]">
 						As a leading remote IT company in Nigeria, committed to delivering
 						top-notch ICT solutions and services. With a focus on excellence and
 						innovation, we offer a comprehensive range of services that include
@@ -61,7 +61,7 @@ export default function About() {
 					</p>
 
 					{/* Map through the sections array to render each section */}
-					<div className="flex lg:flex-row flex-col gap-[24px] lg:px-[240px] lg:py-[80px] py-[50px]">
+					<div className="flex lg:flex-row flex-col gap-[24px] lg:px-[0px] lg:py-[80px] py-[50px]">
 						{sections.map((section, index) => (
 							<div
 								className="lg:w-1/3 px-[30px] py-[20px] bg-[#F9F9F7] group hover:bg-[#ffffff] hover:border-2 shadow-2xl rounded-xl hover:border-[#496115] transition-all duration-300"

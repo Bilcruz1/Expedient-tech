@@ -14,6 +14,7 @@ import stripe from '../assets/images/stripe.png';
 import framer from '../assets/images/framer.png';
 import hubspot from '../assets/images/hubspot.png';
 import dropbox from '../assets/images/dropbox.png';
+import WhatsAppButton from './whatsapp';
 
 export default function HeroSection() {
 	const partners = [netflix, buffer, stripe, framer, hubspot, dropbox];
@@ -39,29 +40,24 @@ export default function HeroSection() {
 					</p>
 
 					<div className="flex lg:gap-[32px] gap-[16px] lg:mt-[48px] mt-[32px] lg:mb-[24px]">
-						<Link
+						<a
 							className="rounded-md hover:cursor-pointer bg-custom-gradient text-[#ffffff] lg:px-[30px] lg:py-[12px] px-[16px] py-[18px] text-[16px]  font-semibold"
 							to="contact"
 							duration={500}
 							smooth={true}
 							offset={-70}
+							href="tel:07066026098"
 						>
-							Schedule a Call
-						</Link>
+							Schedule a Meeting
+						</a>
 						<Link
-							className="rounded-md hover:cursor-pointer bg-[#ffffff] text-gradient border-2 border-[#496115] px-[30px] py-[12px] text-[16px] flex justify-between items-center gap-3  font-bold"
+							className="rounded-md hover:cursor-pointer bg-[#ffffff] text-gradient border-2 border-[#496115]  text-[16px] flex justify-between items-center gap-3  font-bold"
 							to="contact"
 							duration={500}
 							smooth={true}
 							offset={-70}
 						>
-							<div>
-								<img
-									src={whatsapp}
-									alt="whatsapp"
-								/>
-							</div>
-							Quick Chat
+							<WhatsAppButton />
 						</Link>
 					</div>
 				</div>

@@ -57,8 +57,7 @@ export default function CoreServices() {
 										style={{
 											// padding: '10px 20px',
 											cursor: 'pointer',
-											backgroundColor:
-												activeTab === tab.id ? '#0F1115' : '#0F1115',
+											backgroundColor: activeTab === tab.id ? '#0F1115' : '',
 											border:
 												activeTab === tab.id
 													? '1px solid #496115'
