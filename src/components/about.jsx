@@ -46,13 +46,13 @@ export default function About() {
 					<h1 className="text-center text-[16px]  leading-[48px] text-[#FF9800] font-extrabold">
 						Who We Are?
 					</h1>
-					<p className="text-white  text-[32px] leading-[58px] font-extrabold text-center">
+					<p className="text-white  text-[32px] leading-[48px] font-extrabold text-center">
 					Your Trusted IT Partner
 					</p>
 					<p className="text-[20px]  pt-[12px] leading-[30px] font-regular text-white text-center lg:px-[0px]">
 					As a remote IT company with a highly professional team and international standard expertise, 
-					we deliver top tier ICT solutions. Our services include Software Development, IT consultation, 
-					Contracting, tech training, IT supply, software, and UI/UX design empowering businesses 
+					we deliver top tier ICT solutions. Our services include Software Development, UI/UX design, IT consultation, 
+					Contracting, tech training, and IT supply  empowering businesses 
 					and government agencies while shaping future tech leaders.
 					</p>
 

@@ -8,16 +8,16 @@ import { Pagination, Autoplay } from 'swiper/modules'; // Import required Swiper
 
 import home_image from '../assets/images/homePage.png';
 import whatsapp from '../assets/icons/whatsapp.svg';
-import netflix from '../assets/images/netflix.png';
-import buffer from '../assets/images/buffer.png';
-import stripe from '../assets/images/stripe.png';
-import framer from '../assets/images/framer.png';
-import hubspot from '../assets/images/hubspot.png';
-import dropbox from '../assets/images/dropbox.png';
+import fmysd from '../assets/images/fmysd.png';
+import microbridge from '../assets/images/microbridge.png';
+import dataneak from '../assets/images/dataneak.png';
+import nic from '../assets/images/nic.png';
+import corp from '../assets/images/corp.png';
+import globalaux from '../assets/images/globalaux.png';
 import WhatsAppButton from './whatsapp';
 
 export default function HeroSection() {
-	const partners = [netflix, buffer, stripe, framer, hubspot, dropbox];
+	const partners = [fmysd, microbridge, dataneak, nic, corp, globalaux];
 
 	return (
 		<div

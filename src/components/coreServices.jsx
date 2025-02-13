@@ -34,10 +34,10 @@ export default function CoreServices() {
 				id="services"
 			>
 				<div>
-					<h1 className="text-center text-[16px]  leading-[48px] text-[#FF9500] font-extrabold">
+					<h1 className="text-center text-[16px]  pt-[40px] leading-[48px] text-[#FF9500] font-extrabold">
 						Our Core Services
 					</h1>
-					<p className="text-gradient text-[32px] leading-[58px] font-extrabold text-center">
+					<p className="text-gradient text-[32px] leading-[48px] font-extrabold text-center">
 						Exceeding Expectations
 					</p>
 
