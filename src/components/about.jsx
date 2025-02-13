@@ -16,21 +16,21 @@ export default function About() {
 		{
 			title: 'Quality Assurances',
 			description:
-				'We implement rigorous quality control measures throughout every phase of our projects, from planning and development to implementation and maintenance. This guarantees that our solutions consistently meet the highest standards.',
+				'We ensure top quality at every stage, from planning to maintenance, delivering solutions that meet the highest standards.',
 			icon: qah,
 			hoverIcon: qa,
 		},
 		{
 			title: 'Expert & Experience',
 			description:
-				'Our team consists of seasoned ICT professionals with diverse skill sets and extensive experience in the industry. We continuously update our knowledge and skills to stay ahead of the curve in an ever-evolving tech landscape.',
+				'Our expert team brings diverse skills and deep industry experience, staying ahead in the ever-evolving tech landscape.',
 			icon: eeh,
 			hoverIcon: ee,
 		},
 		{
 			title: 'Customer Satisfaction',
 			description:
-				'We measure our success by the satisfaction of our clients. We prioritize open communication, responsive support, and a deep understanding of our clients objectives to deliver outcomes that exceed expectations.',
+				'We prioritize customer satisfaction by delivering innovative, reliable, and tailored solutions that exceed expectations.',
 			icon: csh,
 			hoverIcon: cs,
 		},
@@ -39,32 +39,28 @@ export default function About() {
 	return (
 		<div>
 			<div
-				className="lg:px-[156px] px-[16px] lg:pt-[80px] pt-[40px]"
+				className="lg:px-[156px] px-[16px] lg:pt-[80px] pt-[40px] bg-custom-gradient"
 				id="about"
 			>
 				<div>
-					<h1 className="text-center text-[16px]  leading-[48px] text-[#FF9500] font-extrabold">
-						Who We Are
+					<h1 className="text-center text-[16px]  leading-[48px] text-[#FF9800] font-extrabold">
+						Who We Are?
 					</h1>
-					<p className="text-gradient  text-[32px] leading-[58px] font-extrabold text-center">
-						Expedient Techs LTD
+					<p className="text-white  text-[32px] leading-[58px] font-extrabold text-center">
+					Your Trusted IT Partner
 					</p>
-					<p className="text-[20px]  pt-[12px] leading-[30px] text-[#1D1B20] text-center lg:px-[0px]">
-						As a leading remote IT company in Nigeria, committed to delivering
-						top-notch ICT solutions and services. With a focus on excellence and
-						innovation, we offer a comprehensive range of services that include
-						IT consultation and contracting, technology training for youths,
-						general IT supply, software development, and website development.
-						Our mission is to empower businesses and government agencies with
-						cutting-edge IT support while guiding the next generation toward
-						thriving careers in technology.
+					<p className="text-[20px]  pt-[12px] leading-[30px] font-regular text-white text-center lg:px-[0px]">
+					As a remote IT company with a highly professional team and international standard expertise, 
+					we deliver top tier ICT solutions. Our services include Software Development, IT consultation, 
+					Contracting, tech training, IT supply, software, and UI/UX design empowering businesses 
+					and government agencies while shaping future tech leaders.
 					</p>
 
 					{/* Map through the sections array to render each section */}
 					<div className="flex lg:flex-row flex-col gap-[24px] lg:px-[0px] lg:py-[80px] py-[50px]">
 						{sections.map((section, index) => (
 							<div
-								className="lg:w-1/3 px-[30px] py-[20px] bg-[#F9F9F7] group hover:bg-[#ffffff] hover:border-2 shadow-2xl rounded-xl hover:border-[#496115] transition-all duration-300"
+								className="lg:w-1/3 px-[30px] py-[20px] bg-[#F9F9F7] group hover: rounded-xl transition-all duration-300"
 								key={index}
 							>
 								{/* Icon section with hover effect to change image */}
