@@ -27,20 +27,16 @@ export default function HeroSection() {
 			<section className="flex lg:flex-row flex-col justify-between gap-[64px] lg:pt-[178px] pt-[120px] pb-[68px]">
 				{/* Text Section */}
 				<div className="w-full lg:w-1/2 flex flex-col justify-center">
-					<h1 className="lg:text-[48px] text-[24px] leading-[30px] lg:leading-[58px] text-gradient font-extrabold">
-						Innovating Today,
-						<br /> Empowering Tomorrow
+					<h1 className="lg:text-[40px] text-[24px] leading-[30px] lg:leading-[58px] text-gradient font-extrabold">
+						Innovating Today, Empowering Tomorrow
+						{/* <br /> Empowering Tomorrow */}
 					</h1>
-					<p className="text-[#1D1B20] font-sans leading-[24px]  text-[16px] font-medium pt-[24px] ">
-						Your trusted partner for comprehensive ICT solutions that drive
-						growth and innovation. Whether you need expert consultancy, bespoke
-						software development, or reliable IT supply, our team is here to
-						help you navigate the complexities of the digital landscape with
-						confidence and ease.
+					<p className="text-[#1D1B20] font-sans leading-[24px]  text-[16px] font-regular pt-[24px] ">
+					Your trusted partner for expert IT solutions, offering consultancy, software development, and reliable IT supply. We empower businesses with innovation and seamless digital transformation.
 					</p>
 
 					<div className="flex lg:gap-[32px] gap-[16px] lg:mt-[48px] mt-[32px] lg:mb-[24px]">
-						<a
+						{/* <a
 							className="rounded-md hover:cursor-pointer bg-custom-gradient text-[#ffffff] lg:px-[30px] lg:py-[12px] px-[16px] py-[18px] text-[16px]  font-semibold"
 							to="contact"
 							duration={500}
@@ -48,8 +44,8 @@ export default function HeroSection() {
 							offset={-70}
 							href="tel:07066026098"
 						>
-							Schedule a Meeting
-						</a>
+							Call us
+						</a> */}
 						<Link
 							className="rounded-md hover:cursor-pointer bg-[#ffffff] text-gradient border-2 border-[#496115]  text-[16px] flex justify-between items-center gap-3  font-bold"
 							to="contact"
