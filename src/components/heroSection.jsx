@@ -70,7 +70,7 @@ export default function HeroSection() {
 
 			{/* Trusted Partners Section */}
 			<p className="text-center pt-[40px] text-[#FF9500] text-[16px] leading-[22px] font-semibold">
-				Our Trusted Partners
+				Trusted and Partnerd with
 			</p>
 
 			{/* Swiper Carousel for all screens */}
