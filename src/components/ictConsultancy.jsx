@@ -13,7 +13,7 @@ export default function IctConsultancy() {
 				<div className="flex lg:flex-row flex-col lg:gap-0 mt-[32px]">
 					<div className="lg:w-[50%] w-full border border-[#E1E4ED] py-[40px] lg:px-[32px] px-[16px] rounded-lg">
 						<p className="bg-[#625B71] text-[#ffffff] p-[10px] rounded-md font-bold text-[16px] w-fit">
-						IT Consultancy
+						Our IT Consultancy Services
 						</p>
 						<div>
 							{/* First box with group class */}

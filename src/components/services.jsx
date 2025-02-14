@@ -13,7 +13,7 @@ export default function Services() {
 					<h1 className="text-center text-[16px]  leading-[48px] text-[#FF9500] font-extrabold">
 						Our Portfolios
 					</h1>
-					<p className="text-gradient text-[32px] lg:leading-[58px] leading-[38px] font-extrabold text-center">
+					<p className="text-gradient text-[32px] lg:leading-[48px] leading-[38px] font-extrabold text-center">
 						Explore our Impactful Work
 					</p>
 					<p className="text-[20px] leading-[30px] lg:mt-[0px] mt-[32px] text-[#1D1B20] text-center lg:px-[100px]">

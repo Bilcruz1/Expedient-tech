@@ -13,14 +13,14 @@ export default function CoreServices() {
 	const tabs = [
 		{
 			id: 0,
-			label: 'ICT Contracting Services',
+			label: 'IT Contracting',
 			component: <IctContracting />,
 			activeImage: contract,
 			inactiveImage: contract2,
 		},
 		{
 			id: 1,
-			label: 'ICT Consultancy',
+			label: 'IT Consultancy',
 			component: <IctConsultancy />,
 			activeImage: consult,
 			inactiveImage: consult2,
@@ -49,7 +49,7 @@ export default function CoreServices() {
 									<div
 										key={tab.id}
 										onClick={() => setActiveTab(tab.id)}
-										className={`flex items-center justify-center  lg:p-[12px] p-[8px] shadow ${
+										className={`flex items-center justify-center lg:p-[12px] p-[8px] shadow ${
 											activeTab === tab.id
 												? 'shadow-[#496115] shadow-md text-gradient font-bold'
 												: 'shadow-sm text-[#625B71] font-semibold'
@@ -66,7 +66,7 @@ export default function CoreServices() {
 										}}
 									>
 										{/* Tab icon (active/inactive) */}
-										<img
+										{/* <img
 											src={
 												activeTab === tab.id
 													? tab.activeImage
@@ -74,7 +74,7 @@ export default function CoreServices() {
 											}
 											alt="Tab Icon"
 											className=" mr-2 " // Adjust size and margin for icons
-										/>
+										/> */}
 										<div className="text-[14px] lg:text-[18px]">
 											{' '}
 											{tab.label}

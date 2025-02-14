@@ -51,7 +51,7 @@ function Hamburger({ setIsOpen }) {
 	};
 
 	return (
-		<div className="fixed top-0 left-0 w-[calc(100%-16px)] ml-[8px]   mx-[16px] h-full z-50">
+		<div className="fixed top-0 left-0 w-[calc(100%-16px)] ml-[8px] mx-[16px] h-full z-50">
 			<div
 				className="fixed inset-0 bg-black opacity-50"
 				onClick={handleClose}
@@ -72,7 +72,7 @@ function Hamburger({ setIsOpen }) {
 					</a>
 				</div>
 
-				<div className="bg-[#ffffff] rounded-md  w-full pt-[12px]   flex flex-col px-[24px]  gap-[24px] pb-[24px]">
+				<div className="bg-[#ffffff] rounded-md  w-full pt-[12px] h-full  flex flex-col px-[24px]  gap-[24px] pb-[24px]">
 					{/* Scroll to Home Section */}
 					<ScrollLink
 						to="home"
@@ -126,10 +126,10 @@ function Hamburger({ setIsOpen }) {
 									alt=""
 								/>
 							</div>
-							Company Profile
+							Our Company Profile
 						</a>
 						<a
-							href="https://drive.google.com/file/d/1LCxCn-BX7ZyPuu-aP97ggAiXEpmEgn4Y/view?usp=sharing"
+							href="tel: +2347066026098"
 							className="rounded-md hover:cursor-pointer mt-[16px]  text-[black] text-gradient border-[#496115] border-[3px]  py-[12px] text-[16px] font-semibold flex gap-[8px] justify-center  "
 						>
 							<div>
@@ -138,7 +138,7 @@ function Hamburger({ setIsOpen }) {
 									alt="whatsapp"
 								/>
 							</div>
-							Let’s Connect on WhatsApp
+							Let’s Connect
 						</a>
 					</div>
 				</div>
