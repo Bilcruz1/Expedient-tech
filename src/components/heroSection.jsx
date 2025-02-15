@@ -13,7 +13,6 @@ import microbridge from '../assets/images/microbridge.png';
 import dataneak from '../assets/images/dataneak.png';
 import nic from '../assets/images/nic.png';
 import corp from '../assets/images/corp.png';
-import globalaux from '../assets/images/globalaux.png';
 import WhatsAppButton from './whatsapp';
 
 export default function HeroSection() {

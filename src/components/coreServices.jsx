@@ -49,20 +49,20 @@ export default function CoreServices() {
 									<div
 										key={tab.id}
 										onClick={() => setActiveTab(tab.id)}
-										className={`flex items-center justify-center lg:p-[12px] p-[8px] shadow ${
+										className={`flex items-center justify-center lg:p-[12px] p-[16px] shadow ${
 											activeTab === tab.id
 												? 'shadow-[#496115] shadow-md text-gradient font-bold'
-												: 'shadow-sm text-[#625B71] font-semibold'
+												: 'shadow-sm text-[#625B71] text-[16px] font-semibold'
 										}`}
 										style={{
-											// padding: '10px 20px',
+											padding: '12px 24px',
 											cursor: 'pointer',
 											backgroundColor: activeTab === tab.id ? '#0F1115' : '',
 											border:
 												activeTab === tab.id
 													? '1px solid #496115'
 													: '1px solid gray',
-											borderRadius: '5px',
+											borderRadius: '4px',
 										}}
 									>
 										{/* Tab icon (active/inactive) */}
@@ -75,7 +75,7 @@ export default function CoreServices() {
 											alt="Tab Icon"
 											className=" mr-2 " // Adjust size and margin for icons
 										/> */}
-										<div className="text-[14px] lg:text-[18px]">
+										<div className="text-[16px] lg:text-[18px]">
 											{' '}
 											{tab.label}
 										</div>
