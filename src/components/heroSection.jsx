@@ -17,7 +17,7 @@ import globalaux from '../assets/images/globalaux.png';
 import WhatsAppButton from './whatsapp';
 
 export default function HeroSection() {
-	const partners = [fmysd, microbridge, dataneak, nic, corp, globalaux];
+	const partners = [fmysd, microbridge, dataneak, nic, corp];
 
 	return (
 		<div
@@ -74,7 +74,7 @@ export default function HeroSection() {
 			</p>
 
 			{/* Swiper Carousel for all screens */}
-			<div className="mt-[32px]">
+			<div className="mt-[32px] items-center justify-center object-cover">
 				<Swiper
 					slidesPerView={3} // Show 1 slide at a time for carousel effect
 					spaceBetween={20} // Space between slides
@@ -93,7 +93,7 @@ export default function HeroSection() {
 							<img
 								src={partner}
 								alt={`Partner ${index}`}
-								className="w-[100px] mx-auto h-[30px] object-contain"
+								className=" w-full mx-auto  h-full "
 							/>
 						</SwiperSlide>
 					))}

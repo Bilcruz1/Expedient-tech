@@ -23,7 +23,7 @@ Thank you.`;
 					alt="whatsapp"
 				/>
 			</div> */}
-			<p>Connect with Us</p>
+			<p>Connect with us</p>
 		</button>
 	);
 };

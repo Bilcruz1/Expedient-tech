@@ -94,7 +94,7 @@ function Hamburger({ setIsOpen }) {
 						onClick={() => handleNavigation('/', 'about')}
 						className="text-[24px] leading-[22px] cursor-pointer text-[#625B71]"
 					>
-						About Us
+						Who we are
 					</ScrollLink>
 
 					<ScrollLink
@@ -105,7 +105,7 @@ function Hamburger({ setIsOpen }) {
 						onClick={() => handleNavigation('/', 'services')}
 						className="text-[24px] leading-[22px] cursor-pointer text-[#625B71]"
 					>
-						Services
+						What we do
 					</ScrollLink>
 					<RouterLink
 						to="/contact-us"

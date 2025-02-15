@@ -141,16 +141,16 @@ export default function Nav() {
 							className="cursor-pointer relative"
 							style={activeSection === 'about' ? activeStyle : inactiveStyle}
 						>
-							About Us
+							Who we are
 							{activeSection === 'about' && <span style={underlineStyle} />}
 						</button>
 
 						<button
 							onClick={() => scrollToSection('services')}
-							className="cursor-pointer relative"
+							className="cursor-pointer relative f-regular"
 							style={activeSection === 'services' ? activeStyle : inactiveStyle}
 						>
-							Our Services
+							What we do
 							{activeSection === 'services' && <span style={underlineStyle} />}
 						</button>
 
