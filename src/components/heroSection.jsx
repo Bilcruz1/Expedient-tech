@@ -20,7 +20,7 @@ export default function HeroSection() {
 
 	return (
 		<div
-			className="bg-[#F5F7F5] relative w-full lg:bg-cover bg-bottom bg-no-repeat lg:px-[156px] px-[16px] pb-[40px]"
+			className="bg-[#F5F7F5] relative w-full lg:bg-cover bg-bottom bg-no-repeat justify-center lg:px-[156px] px-[16px] pb-[40px]"
 			id="home"
 		>
 			<section className="flex lg:flex-row flex-col justify-between gap-[64px] lg:pt-[178px] pt-[120px] pb-[68px]">

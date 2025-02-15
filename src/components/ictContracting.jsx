@@ -6,7 +6,7 @@ export default function IctContracting() {
 			<div className="">
 				<p className="text-center text-[20px]  leading-[30px] lg:px-[320px] mt-[32px] text-[#1D1B20]">
 					Our contracting services provide end-to-end ICT solutions tailored to
-					meet the unique challenges of each client. We specialize in:
+					meet the unique challenges of each client. We specialize in
 				</p>
 
 				<div className="flex lg:flex-row flex-col lg:gap-0 mt-[32px]">

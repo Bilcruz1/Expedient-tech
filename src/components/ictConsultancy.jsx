@@ -65,7 +65,7 @@ export default function IctConsultancy() {
 							</div>
 						</div>
 					</div>
-					<div className="lg:w-[50%] w-full lg:h-[743px] h-[425px] bg-[url('/src/assets/images/consulting.png')]  bg-center  bg-cover lg:my-[30px] lg:rounded-r-lg "></div>
+					<div className="lg:w-[50%] w-full lg:h-[743px] h-[425px] justify-center bg-[url('/src/assets/images/consulting.png')] align-center bg-center  bg-cover lg:my-[30px] lg:rounded-r-lg "></div>
 				</div>
 			</div>
 		</div>
